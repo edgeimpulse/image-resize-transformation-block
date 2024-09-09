@@ -1,0 +1,7 @@
+edgeimpulse
+opencv-python-headless
+numpy
+numpy>=1.19
+PyAudio
+psutil>=5.8.0
+edge_impulse_linux

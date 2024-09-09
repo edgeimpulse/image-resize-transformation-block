@@ -1,0 +1,37 @@
+[{
+    "name": "Input Project API Key",
+    "value": "",
+    "type": "string",
+    "help": "Specify a separate project API key to import data from, otherwise current project is used",
+    "param": "input-project-api-key",
+    "optional": true
+},
+{
+    "name": "Output Project API Key",
+    "value": "",
+    "type": "string",
+    "help": "Specify a separate project API key to export to, otherwise current project is used",
+    "param": "output-project-api-key",
+    "optional": true
+},{
+    "name": "Resize Method",
+    "value": "fit-short",
+    "type": "select",
+    "help": "Which resize method to use",
+    "param": "resize-method",
+    "valid": ["fit-shortest", "squash", "fit-longest"]
+}, {
+    "name": "Resolution",
+    "value": "320",
+    "type": "int",
+    "help": "Images take a square input of this resolution",
+    "param": "resolution"
+},
+{
+    "name": "Grayscale",
+    "value": "False",
+    "type": "select",
+    "valid": ["True", "False"],
+    "help": "Is Grayscale?",
+    "param": "is-grayscale"
+} ]
