@@ -17,14 +17,20 @@ Install the required Python packages:
 
 Usage
 Command Line Arguments/Parameters
+
 --input-project-api-key: Specify a separate project API key to import from, otherwise the current project is used.
+
 --output-project-api-key: Specify a separate project API key to export to, otherwise the current project is used and data is deleted.
+
 --resize-method: Resize method (default: fit-shortest).
+
 --resolution: Resize resolution (required).
+
 --is-grayscale: Is the image grayscale (default: False).
+
 --debug: Debug mode (default: False).
-Example Command
-Script Details
+
+
 The script performs the following steps:
 
 Fetches samples from the input project.
