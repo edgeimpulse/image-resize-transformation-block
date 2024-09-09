@@ -1,22 +1,26 @@
-Image Resize Transformation Block (Python)
+# Image Resize Transformation Block (Python)
 This transformation block resizes all images in an Edge Impulse project using the same methods as in edge_impulse_linux. 
 
-Requirements
+## Requirements
 Python 3.x
+
 Edge Impulse Python SDK
+
 OpenCV
+
 NumPy
+
 Requests
-Installation
+
+
+## Installation
 Clone the repository locally
 use `edge_impulse_blocks init` to initialise a Standalone block in your org
 then `edge_impulse_blocks push` to push this up.
 Then run this from a project or from your dashboard.
 
-Install the required Python packages:
-
-Usage
-Command Line Arguments/Parameters
+## Usage
+### Command Line Arguments/Parameters
 
 --input-project-api-key: Specify a separate project API key to import from, otherwise the current project is used.
 
